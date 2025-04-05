@@ -1,0 +1,59 @@
+
+.login-background {
+    height: 100vh;
+    background: linear-gradient(to right, #11998e, #38ef7d);
+}
+
+.login-card {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 15px;
+    background-color: white;
+    border: none;
+}
+
+.login-card input,
+.login-card select {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.login-card .btn-success {
+    background-color: #28a745;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.login-card .btn-success:hover {
+    background-color: #218838;
+}
+
+.alert {
+    font-size: 14px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+}
+
+.login-card a {
+    color: #11998e;
+    text-decoration: none;
+}
+
+.login-card a:hover {
+    text-decoration: underline;
+}

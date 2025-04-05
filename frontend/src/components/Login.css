@@ -1,0 +1,46 @@
+.login-background {
+    height: 100vh;
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+}
+
+.login-card {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+    background-color: white;
+    border: none;
+}
+
+.login-card input[type="email"],
+.login-card input[type="password"] {
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.login-card .btn-primary {
+    background-color: #4e54c8;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+.login-card .btn-primary:hover {
+    background-color: #3e44b5;
+}
+
+.alert-danger {
+    font-size: 14px;
+    padding: 8px 12px;
+}
+
+
+.login-card a {
+    color: #4e54c8;
+    text-decoration: none;
+}
+
+.login-card a:hover {
+    text-decoration: underline;
+}
